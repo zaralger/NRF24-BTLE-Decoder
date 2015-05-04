@@ -41,6 +41,7 @@ Steve Markgraf, RTL-SDR Library - https://github.com/steve-m/librtlsdr
 #endif /* defined(WIN32) */
 #include <stdlib.h> // For exit function
 #include <unistd.h>    /* for getopt */
+#include <string.h>
 
 /* Global variables */
 int32_t g_threshold; // Quantization threshold
